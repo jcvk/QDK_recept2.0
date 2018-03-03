@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:background="#87CEEB"
+        android:textSize="30sp"
+        android:text="我的信息"
+        android:textColor="#FFFFFF"
+        />
+
+    <!--<LinearLayout-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="80dp"-->
+            <!--android:layout_height="80dp"-->
+            <!--android:src="@drawable/head_portrait"-->
+            <!--/>-->
+
+        <!--<LinearLayout-->
+            <!--android:orientation="vertical"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+
+            <!--<TextView-->
+                <!--android:layout_marginTop="1dp"-->
+                <!--android:layout_marginBottom="2dp"-->
+                <!--android:background="@drawable/text_round"-->
+                <!--android:gravity="center"-->
+                <!--android:textSize="20sp"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_height="0dp"-->
+                <!--android:text="会飞的小鹅"-->
+                <!--/>-->
+
+            <!--<TextView-->
+                <!--android:layout_marginTop="1dp"-->
+                <!--android:layout_marginBottom="2dp"-->
+                <!--android:background="@drawable/text_round"-->
+                <!--android:textSize="20sp"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_height="0dp"-->
+                <!--android:text="我的消息"-->
+                <!--/>-->
+
+        <!--</LinearLayout>-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:background="#FFFFFF"-->
+        <!--android:layout_margin="2dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<ImageView-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:layout_margin="5dp"-->
+            <!--android:src="@drawable/person_set"-->
+            <!--android:layout_width="20dp"-->
+            <!--android:layout_height="20dp"/>-->
+
+        <!--<TextView-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:textSize="15sp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:text="个人设置"-->
+            <!--/>-->
+
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:background="#FFFFFF"-->
+        <!--android:layout_margin="2dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<ImageView-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:layout_margin="5dp"-->
+            <!--android:src="@drawable/browsing_history"-->
+            <!--android:layout_width="20dp"-->
+            <!--android:layout_height="20dp"/>-->
+
+        <!--<TextView-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:textSize="15sp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:text="浏览记录"-->
+            <!--/>-->
+
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:background="#FFFFFF"-->
+        <!--android:layout_margin="2dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<ImageView-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:layout_margin="5dp"-->
+            <!--android:src="@drawable/my_store"-->
+            <!--android:layout_width="20dp"-->
+            <!--android:layout_height="20dp"/>-->
+
+        <!--<TextView-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:textSize="15sp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:text="我的商家"-->
+            <!--/>-->
+
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:background="#FFFFFF"-->
+        <!--android:layout_margin="2dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<ImageView-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:layout_margin="5dp"-->
+            <!--android:src="@drawable/exit"-->
+            <!--android:layout_width="20dp"-->
+            <!--android:layout_height="20dp"/>-->
+
+        <!--<TextView-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:textSize="15sp"-->
+            <!--android:layout_gravity="bottom"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:text="退出登录"-->
+            <!--/>-->
+
+
+    <!--</LinearLayout>-->
+
+    <LinearLayout
+        android:background="#87CEEB"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/head_portrait"
+                    />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_marginTop="1dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginRight="2dp"
+                        android:background="@drawable/text_round"
+                        android:gravity="center"
+                        android:textSize="20sp"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="0dp"
+                        android:text="会飞的小鹅"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="1dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginRight="2dp"
+                        android:background="@drawable/text_round"
+                        android:textSize="20sp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="0dp"
+                        android:text="我的消息"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="#E0E0E0"
+                android:layout_margin="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/person_set"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"/>
+
+                <TextView
+                    android:gravity="center_vertical"
+                    android:textSize="15sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="个人设置"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="#E0E0E0"
+                android:layout_margin="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/browsing_history"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"/>
+
+                <TextView
+                    android:gravity="center_vertical"
+                    android:textSize="15sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="浏览记录"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="#E0E0E0"
+                android:layout_margin="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/my_store"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"/>
+
+                <TextView
+                    android:gravity="center_vertical"
+                    android:textSize="15sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="我的商家"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="#E0E0E0"
+                android:layout_margin="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/exit"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"/>
+
+                <TextView
+                    android:gravity="center_vertical"
+                    android:textSize="15sp"
+                    android:layout_gravity="bottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="退出登录"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

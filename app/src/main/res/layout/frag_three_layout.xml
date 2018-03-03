@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:background="#87CEEB"
+        android:textSize="30sp"
+        android:text="我的会员"
+        android:textColor="#FFFFFF"
+        />
+
+    <LinearLayout
+        android:background="#87CEEB"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:background="#F0F0F0"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/search"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+
+                <EditText
+                    android:background="@drawable/eidto_round"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="5dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:text="搜索商店"
+                    android:textColor="#D0D0D0"
+                    />
+
+                <Button
+                    android:layout_margin="5dp"
+                    android:background="@drawable/button_shape"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="OK"
+                    />
+
+
+
+
+
+
+            </LinearLayout>
+            <ListView
+                android:id="@+id/member_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </ListView>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
